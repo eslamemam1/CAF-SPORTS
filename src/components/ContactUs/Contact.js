@@ -81,7 +81,7 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div className=" font-medium text-base bg-slate-100">
+      <div className=" font-medium text-sm min-h-[100vh] bg-slate-100">
         <ContactForm />
       </div>
       <Footer />
