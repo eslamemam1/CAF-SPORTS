@@ -98,7 +98,7 @@ function NavBar(props) {
                   element={props.togol2}
                   onClick={topFunction}
                   className="navlink0"
-                  to={"/"}
+                  to={"/CAF-SPORTS"}
                 >
                   {t("Home")}
                 </NavLink>
@@ -134,19 +134,19 @@ function NavBar(props) {
             </ul>
           </div>
           <div className=" flex items-center lg:hidden">
-          <i
-            className="fas fa-bars mr-4 lg:hidden sm:text-[23px] text-[20px] text-[#ffffff] cursor-pointer"
-            onClick={handelClick}
-          ></i>
-          <div className="lg:hidden">
-          <DropdownMenu />
-          </div>
+            <i
+              className="fas fa-bars mr-4 lg:hidden sm:text-[23px] text-[20px] text-[#ffffff] cursor-pointer"
+              onClick={handelClick}
+            ></i>
+            <div className="lg:hidden">
+              <DropdownMenu />
+            </div>
           </div>
         </div>
       </nav>
 
       <Routes>
-        <Route path="/" element={<HomePage home={t("Home")} />} />
+        <Route path="/CAF-SPORTS" element={<HomePage home={t("Home")} />} />
         <Route path="/About" element={<About about={t("About Us")} />} />
         <Route
           path="/Projects"
