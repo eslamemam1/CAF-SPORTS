@@ -8,6 +8,7 @@ import { FaPhone } from "react-icons/fa";
 import Footer from "../Footer";
 import { useTranslation } from "react-i18next";
 import ContactForm from "./ContactForm";
+import UAEMap from "./UAEMap";
 function Contact() {
   const { t } = useTranslation();
   const phoneNumber = "123456789";
@@ -81,8 +82,11 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div className=" font-medium text-sm min-h-[100vh] bg-slate-100">
+      <div className=" bg-slate-100">
+        <div className=" flex flex-col md:flex-row w-[85%] m-auto items-center justify-around font-medium text-sm min-h-[100vh]">
+        <UAEMap/>
         <ContactForm />
+        </div>
       </div>
       <Footer />
     </div>
