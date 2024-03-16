@@ -153,7 +153,7 @@ function NavBar(props) {
       </nav>
 
       <Routes>
-        <Route path="/" element={<HomePage home={t("Home")} />} />
+        <Route path="/CAF-SPORTS" element={<HomePage home={t("Home")} />} />
         <Route path="/About" element={<About about={t("About Us")} />} />
         <Route
           path="/Projects"
