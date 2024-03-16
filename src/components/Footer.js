@@ -92,7 +92,7 @@ const Footer = (props) => {
             </li>
 
             <li className="font-normal text-xs sm:text-sm text-[#fff]">
-              <NavLink onClick={topFunction} className="" to={"/Products"}>
+              <NavLink onClick={topFunction} className="" to={"/Projects"}>
                 {t("Our Projects")}
               </NavLink>
             </li>

@@ -371,3 +371,12 @@
 .v:hover #icon{
   visibility: visible;
 }
+/* styles.css */
+
+
+/* Apply styles when screen width is less than or equal to 326px */
+@media (min-width: 100px) and (max-width: 326px)  {
+  .myComponent {
+    height: 150vb;
+  }
+}

@@ -52,7 +52,7 @@ function Projects() {
                 <img
                   src={logoForHeroSection1}
                   alt="Logo"
-                  className=" w-[15rem] "
+                  className=" w-[12rem] "
                 />
               </div>
             )}

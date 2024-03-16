@@ -33,7 +33,7 @@ const SectionOneHomePage = (props) => {
           backgroundImage: `url(${backgroundImage})`,
         }}
       >
-        <div className="w-[100%] h-[100vb] flex flex-col md:flex-row items-center justify-center ">
+        <div className="w-[100%] myComponent h-[100vb] flex flex-col md:flex-row items-center justify-center ">
           <div className="md:w-[40%] w-[100%] ">
             {width >= "768" ? (
               <div>
@@ -48,7 +48,7 @@ const SectionOneHomePage = (props) => {
                 <img
                   src={logoForHeroSection1}
                   alt="Logo"
-                  className=" w-[15rem] "
+                  className=" w-[12rem] "
                 />
               </div>
             )}

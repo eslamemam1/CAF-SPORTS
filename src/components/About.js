@@ -18,8 +18,10 @@ import Expert from "../imges/Expert.png";
 import OurPartener from "./new/OurPartener";
 import Footer from "./Footer";
 import SectionThreeHomPage from "./SectionThreeHomPage";
+import { useTranslation } from "react-i18next";
 function About(props) {
   const phoneNumber = "123456789";
+  const { t } = useTranslation();
   const [width, setWidth] = useState(0);
   useEffect(() => {
     const handleResize = () => {
@@ -59,14 +61,14 @@ function About(props) {
                 <img
                   src={logoForHeroSection1}
                   alt="Logo"
-                  className=" w-[15rem] "
+                  className=" w-[12rem] "
                 />
               </div>
             )}
           </div>
           <div className="sm:pl-[50px] pt-10 md:pt-0 sm:pr-[50px] w-[100%] md:w-[60%] flex-col justify-center">
             <p className=" text-4xl lg:text-8xl text-center md:text-left text-white pb-5">
-              ABOUT US
+              {t("About Us")}
             </p>
           </div>
         </div>
