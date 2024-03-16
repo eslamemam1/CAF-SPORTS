@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import ScrollToTopButton from "./new/ScrollToTopButton ";
 function SmallContact() {
   const { i18n } = useTranslation();
   const ref = useRef();
@@ -23,20 +22,18 @@ function SmallContact() {
         href="#nav"
         className={
           i18n.language === "en"
-            ? "fixed right-1 top-[93%]"
-            : "fixed left-0 top-[93%]"
+            ? "fixed right-1 top-[90%]"
+            : "fixed left-0 top-[90%]"
         }
       >
         <div
           className={
             i18n.language === "en"
-              ? "mr-4 relative bottom-3 w-10 h-10 rounded-full bg-[#44444480]"
-              : "ml-4 relative bottom-3 w-10 h-10 rounded-full bg-[#44444480]"
+              ? "mr-4 relative bottom-3 w-7 h-9 rounded-full bg-[#44444480]"
+              : "ml-4 relative bottom-3 w-7 h-9 rounded-full bg-[#44444480]"
           }
         >
-          <i>
-          <FontAwesomeIcon class="fas fa-chevron-up absolute left-[12px] top-[10px] text-white " icon={faArrowUp} />
-          </i>
+          <ScrollToTopButton/>
         </div>
       </a>
     </div>

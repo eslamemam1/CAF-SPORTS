@@ -9,6 +9,7 @@ import Vectoors from "../new/Vectoors";
 import Gallery from "../Gallery";
 import Footer from "../Footer";
 import { useTranslation } from "react-i18next";
+import SmallContact from "../SmallContact";
 
 function Projects() {
   const { t } = useTranslation();
@@ -88,6 +89,7 @@ function Projects() {
         <Gallery />
       </div>
       <Footer />
+      <SmallContact/>
     </div>
   );
 }

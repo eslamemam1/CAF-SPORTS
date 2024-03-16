@@ -19,6 +19,7 @@ import OurPartener from "./new/OurPartener";
 import Footer from "./Footer";
 import SectionThreeHomPage from "./SectionThreeHomPage";
 import { useTranslation } from "react-i18next";
+import SmallContact from "./SmallContact";
 function About(props) {
   const phoneNumber = "123456789";
   const { t } = useTranslation();
@@ -234,6 +235,7 @@ function About(props) {
       <SectionThreeHomPage/>
       <OurPartener />
       <Footer/>
+      <SmallContact/>
     </div>
   );
 }

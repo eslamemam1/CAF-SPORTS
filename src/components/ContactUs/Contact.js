@@ -9,6 +9,7 @@ import Footer from "../Footer";
 import { useTranslation } from "react-i18next";
 import ContactForm from "./ContactForm";
 import UAEMap from "./UAEMap";
+import SmallContact from "../SmallContact";
 function Contact() {
   const { t } = useTranslation();
   const phoneNumber = "123456789";
@@ -89,6 +90,7 @@ function Contact() {
         </div>
       </div>
       <Footer />
+      <SmallContact/>
     </div>
   );
 }
