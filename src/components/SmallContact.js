@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 function SmallContact() {
   const { i18n } = useTranslation();
   const ref = useRef();
@@ -32,7 +34,9 @@ function SmallContact() {
               : "ml-4 relative bottom-3 w-10 h-10 rounded-full bg-[#44444480]"
           }
         >
-          <i class="fas fa-chevron-up absolute left-[12px] top-[10px] text-[20px] text-white "></i>
+          <i>
+          <FontAwesomeIcon class="fas fa-chevron-up absolute left-[12px] top-[10px] text-white " icon={faArrowUp} />
+          </i>
         </div>
       </a>
     </div>
