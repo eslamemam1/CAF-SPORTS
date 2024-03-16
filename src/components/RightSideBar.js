@@ -38,7 +38,7 @@ function RightSideBar(props) {
               topFunction()
             }}
             className="navlinkAr"
-            to={"/"}
+            to={"/CAF-SPORTS"}
           >
             <p>{t("Home")}</p>
           </NavLink>

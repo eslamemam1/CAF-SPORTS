@@ -98,7 +98,7 @@ function NavBar(props) {
                   element={props.togol2}
                   onClick={topFunction}
                   className="navlink0"
-                  to={"/"}
+                  to={"/CAF-SPORTS"}
                 >
                   {t("Home")}
                 </NavLink>

@@ -80,7 +80,7 @@ const Footer = (props) => {
                 element={props.togol2}
                 onClick={topFunction}
                 className=""
-                to={"/"}
+                to={"/CAF-SPORTS"}
               >
                 {t("Home")}
               </NavLink>
