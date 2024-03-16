@@ -33,7 +33,7 @@ const SectionOneHomePage = (props) => {
           backgroundImage: `url(${backgroundImage})`,
         }}
       >
-        <div className="w-[100%] h-[100vh] flex flex-col md:flex-row items-center justify-center ">
+        <div className="w-[100%] h-[100vb] flex flex-col md:flex-row items-center justify-center ">
           <div className="md:w-[40%] w-[100%] ">
             {width >= "768" ? (
               <div>

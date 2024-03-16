@@ -47,7 +47,7 @@ function NavBar(props) {
         </div>
       </div>
       {/** End Of SideBar */}
-      <nav id="navBarS" className={props.togol2 === false ? " h-0" : " h-0"}>
+      <nav id="navBarS" className="h-0">
         <div
           className={
             i18n.language === "en"
@@ -133,9 +133,16 @@ function NavBar(props) {
               </li>
             </ul>
           </div>
-          <div className=" flex items-center lg:hidden">
+
+          <div
+            className={
+              i18n.language === "en"
+                ? " flex items-center gap-4 flex-row-reverse lg:hidden "
+                : " flex items-center gap-4 lg:hidden"
+            }
+          >
             <i
-              className="fas fa-bars mr-4 lg:hidden sm:text-[23px] text-[20px] text-[#ffffff] cursor-pointer"
+              className="fas fa-bars lg:hidden sm:text-[23px] text-[20px] text-[#ffffff] cursor-pointer"
               onClick={handelClick}
             ></i>
             <div className="lg:hidden">

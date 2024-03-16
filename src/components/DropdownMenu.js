@@ -14,7 +14,7 @@ function DropdownMenu() {
       }
     >
       <img src={language} className=" w-7" alt="logo" />
-      {(
+      {
         <ul className="dropdown-menu">
           <li>
             {" "}
@@ -49,7 +49,7 @@ function DropdownMenu() {
             </button>
           </li>
         </ul>
-      )}
+      }
     </div>
   );
 }

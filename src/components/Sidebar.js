@@ -38,7 +38,7 @@ function Sidebar(props) {
               topFunction()
             }}
             className="navlinkEn"
-            to={"/CAF-SPORTS"}
+            to={"/"}
           >
             <p>{t("Home")}</p>
           </NavLink>
@@ -52,55 +52,16 @@ function Sidebar(props) {
           >
             <p>{t("About Us")}</p>
           </NavLink>
+
           <NavLink
             onClick={() => {
               props.setTogol2(!props.togol2);
               topFunction()
             }}
             className="navlinkEn"
-            to={"/Systems"}
+            to={"/Projects"}
           >
-            <p>{t("Systems")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkEn"
-            to={"/Products"}
-          >
-            <p>{t("Products")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkEn"
-            to={"/Certification"}
-          >
-            <p>{t("Certification")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkEn"
-            to={"/Extras"}
-          >
-            <p>{t("Extras")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkEn"
-            to={"/News"}
-          >
-            <p>{t("News")}</p>
+            <p>{t("Our Projects")}</p>
           </NavLink>
           <NavLink
             onClick={() => {
@@ -111,16 +72,6 @@ function Sidebar(props) {
             to={"/Contact"}
           >
             <p>{t("Contact Us")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkEn"
-            to={"/Videos"}
-          >
-            <p>{t("Videos")}</p>
           </NavLink>
         </div>
       </div>

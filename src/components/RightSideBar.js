@@ -58,49 +58,9 @@ function RightSideBar(props) {
               topFunction()
             }}
             className="navlinkAr"
-            to={"/Systems"}
+            to={"/Projects"}
           >
-            <p>{t("Systems")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkAr"
-            to={"/Products"}
-          >
-            <p>{t("Products")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkAr"
-            to={"/Certification"}
-          >
-            <p>{t("Certification")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkAr"
-            to={"/Extras"}
-          >
-            <p>{t("Extras")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkAr"
-            to={"/News"}
-          >
-            <p>{t("News")}</p>
+            <p>{t("Our Projects")}</p>
           </NavLink>
           <NavLink
             onClick={() => {
@@ -111,16 +71,6 @@ function RightSideBar(props) {
             to={"/Contact"}
           >
             <p>{t("Contact Us")}</p>
-          </NavLink>
-          <NavLink
-            onClick={() => {
-              props.setTogol2(!props.togol2);
-              topFunction()
-            }}
-            className="navlinkAr"
-            to={"/Videos"}
-          >
-            <p>{t("Videos")}</p>
           </NavLink>
         </div>
       </div>
