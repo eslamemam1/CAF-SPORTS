@@ -1,12 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 function Sidebar(props) {
   const { t } = useTranslation();
-  const topFunction = ()=> {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+  const topFunction = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
   return (
     <aside
       className={
@@ -17,13 +19,14 @@ function Sidebar(props) {
     >
       <div className=" backgroundColorSideBar">
         <div className=" flex flex-col items-center text-black h-screen">
-          <i
+          <FontAwesomeIcon
             onClick={() => {
               props.setTogol2(!props.togol2);
             }}
-            class="far fa-times-circle text-[#686868] text-[25px] absolute right-[15px] top-[6px] x cursor-pointer"
-          ></i>
-          <NavLink 
+            icon={faTimes}
+            className="text-gray-600 text-[25px] absolute right-[15px] top-[6px] x cursor-pointer"
+          />
+          <NavLink
             onClick={() => {
               props.setTogol2(!props.togol2);
             }}
@@ -35,7 +38,7 @@ function Sidebar(props) {
           <NavLink
             onClick={() => {
               props.setTogol2(!props.togol2);
-              topFunction()
+              topFunction();
             }}
             className="navlinkEn"
             to={"/CAF-SPORTS"}
@@ -45,7 +48,7 @@ function Sidebar(props) {
           <NavLink
             onClick={() => {
               props.setTogol2(!props.togol2);
-              topFunction()
+              topFunction();
             }}
             className="navlinkEn"
             to={"/About"}
@@ -56,7 +59,7 @@ function Sidebar(props) {
           <NavLink
             onClick={() => {
               props.setTogol2(!props.togol2);
-              topFunction()
+              topFunction();
             }}
             className="navlinkEn"
             to={"/Projects"}
@@ -66,7 +69,7 @@ function Sidebar(props) {
           <NavLink
             onClick={() => {
               props.setTogol2(!props.togol2);
-              topFunction()
+              topFunction();
             }}
             className="navlinkEn"
             to={"/Contact"}

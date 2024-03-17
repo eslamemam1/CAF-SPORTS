@@ -10,6 +10,8 @@ import Sidebar from "./Sidebar";
 import logoLight from "../imges/logoLight.svg";
 import RightSideBar from "./RightSideBar";
 import DropdownMenu from "./DropdownMenu";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function NavBar(props) {
   const { t, i18n } = useTranslation();
@@ -141,10 +143,11 @@ function NavBar(props) {
                 : " flex items-center gap-4 lg:hidden"
             }
           >
-            <i
-              className="fas fa-bars lg:hidden sm:text-[23px] text-[20px] text-[#ffffff] cursor-pointer"
+            <FontAwesomeIcon
               onClick={handelClick}
-            ></i>
+              className="fas fa-bars lg:hidden sm:text-[23px] text-[20px] text-[#ffffff] cursor-pointer"
+              icon={faBars}
+            />
             <div className="lg:hidden">
               <DropdownMenu />
             </div>
