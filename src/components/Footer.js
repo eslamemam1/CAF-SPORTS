@@ -8,7 +8,7 @@ import location from "../imges/location.png";
 import FooterLogo from "../imges/FooterLogo.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaPhone } from 'react-icons/fa';
+import { FaPhone } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const Footer = (props) => {
@@ -35,8 +35,9 @@ const Footer = (props) => {
           {/**-------------------- */}
           <div className=" flex items-center">
             <p className=" text-sm font-light sm:text-start text-center text-white">
-              From generating entire sales sequences in minutes topersonalizing
-              LinkedIn InMail messages
+              {t(
+                "We are CAF Sports Company, one of the leading companies in Egypt and the United Arab Emirates specialized in the field of sports construction and industrial flooring"
+              )}
             </p>
           </div>
           <div className=" flex gap-3 mt-5 sm:pt-0 items-center">
@@ -54,11 +55,7 @@ const Footer = (props) => {
             >
               <FaWhatsapp className="w-[30px] h-[50px] text-white" />
             </a>
-            <a
-              href="tel:+1234567890"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">
               <FaPhone className="w-[30px] h-[50px] text-white" />
             </a>
           </div>
@@ -105,7 +102,9 @@ const Footer = (props) => {
         </div>
         {/**-------------------- */}
         <div className=" flex items-center flex-col w-full sm:w-[33.3%]">
-          <p className="text-green-700 font-medium md:pr-[115px] mt-4 text-lg">Reach Us</p>
+          <p className="text-green-700 font-medium md:pr-[115px] mt-4 text-lg">
+            Reach Us
+          </p>
           <ul
             className={
               i18n.language === "en"
@@ -114,21 +113,43 @@ const Footer = (props) => {
             }
           >
             <div className="sm:ml-3 flex gap-2 items-center">
-              <img src={mail} alt="mail"className=" w-[20px] sm:w-[25px]" />
+              <img src={mail} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
                 Mohamedobrahim@gmail.com
               </li>
             </div>
+            <div className="sm:ml-2 flex sm:gap-2 items-center">
+              <img
+                src={location}
+                className=" w-[20px] sm:w-[25px]"
+                alt="mail"
+              />
+              <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
+                United Arab Emirates
+              </li>
+            </div>
             <div className="sm:ml-3 flex gap-2 items-center text-start">
-              <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]"/>
+              <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal text-xs sm:text-sm sm:w-[170px] text-[#fff]">
-                +99926528520
+                <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">+971543575745</a>
               </li>
             </div>
             <div className="sm:ml-2 flex sm:gap-2 items-center">
-              <img src={location} className=" w-[20px] sm:w-[25px]" alt="mail" />
+              <img
+                src={location}
+                className=" w-[20px] sm:w-[25px]"
+                alt="mail"
+              />
               <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
-              United Arab Emirates
+                Egypt
+              </li>
+            </div>
+            <div className="sm:ml-3 flex gap-2 items-center text-start">
+              <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
+              <li className="font-normal text-xs sm:text-sm sm:w-[170px] text-[#fff]">
+                <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">01141227755</a>
+                <br />
+                <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">01126484032</a>
               </li>
             </div>
           </ul>
@@ -137,8 +158,8 @@ const Footer = (props) => {
       </div>
       <div className="w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-start">
         <p className=" text-sm sm:text-lg font-light text-white">
-          Copyright © 2024 All rights reserved | This Website is made by
-          Eslam Emam
+          Copyright © 2024 All rights reserved | This Website is made by Eslam
+          Emam
         </p>
       </div>
       <img

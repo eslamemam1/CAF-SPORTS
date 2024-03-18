@@ -5,9 +5,10 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaPhone } from 'react-icons/fa';
+import { FaPhone } from "react-icons/fa";
 const SectionOneHomePage = (props) => {
   const phoneNumber = "123456789";
+  const { i18n } = useTranslation();
   const { t } = useTranslation();
   const [width, setWidth] = useState(0);
   useEffect(() => {
@@ -54,10 +55,22 @@ const SectionOneHomePage = (props) => {
             )}
           </div>
           <div className="sm:pl-[50px] pt-10 md:pt-0 sm:pr-[50px] w-[100%] md:w-[60%] flex-col justify-center">
-            <p className=" text-4xl lg:text-6xl text-center md:text-left text-white pb-5">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " text-4xl lg:text-6xl text-center md:text-left text-white m-auto sm:m-0 pb-5 w-[90%] lg:w-[80%]"
+                  : " text-4xl lg:text-6xl text-center md:text-right text-white m-auto sm:m-0 pb-5 w-[90%] lg:w-[80%]"
+              }
+            >
               {t("Sports Flooring")}
             </p>
-            <p className=" text-base font-light text-center md:text-left text-white m-auto sm:m-0 w-[90%] lg:w-[80%]">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " text-base font-light text-center md:text-left text-white m-auto sm:m-0 w-[90%] lg:w-[80%]"
+                  : " text-base font-light text-center md:text-right text-white m-auto sm:m-0 w-[90%] lg:w-[80%]"
+              }
+            >
               {t(
                 "Explore our premium sports flooring options at Caf Sports, designed for superior performance and safety. Contact us today for customized solutions and expert guidance"
               )}
@@ -79,13 +92,9 @@ const SectionOneHomePage = (props) => {
           >
             <FaWhatsapp className="w-[30px] absolute bottom-5 right-11 text-white" />
           </a>
-          <a
-              href="tel:+1234567890"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaPhone className="w-[30px] absolute bottom-5 right-[90px] text-white" />
-            </a>
+          <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">
+            <FaPhone className="w-[30px] absolute bottom-5 right-[90px] text-white" />
+          </a>
         </div>
       </div>
     </div>

@@ -6,24 +6,24 @@ function SmallContact() {
   const { i18n } = useTranslation();
   const ref = useRef();
   useScrollPosition(({ prevPos, currPos }) => {
-    //console.log(currPos.x);
-    if (currPos.y <= -60) {
+    /** console.log(currPos.x); */
+    if (currPos.y <= -300) {
       ref.current.className = "w-5";
-      // console.log(currPos.y);
-    } else if (currPos.y <= 0 && currPos.y >= -50) {
+      /** console.log(currPos.y); */
+    } else if (currPos.y <= 0 && currPos.y >= -300) {
       ref.current.className = " hidden";
-      // console.log("ss");
+      /** console.log("ss"); */
     }
   });
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className=" hidden">
       <a
         href="#nav"
         className={
           i18n.language === "en"
-            ? "fixed right-1 top-[90%]"
-            : "fixed left-0 top-[90%]"
+            ? "fixed right-5 top-[90%]"
+            : "fixed left-5 top-[90%]"
         }
       >
         <div
