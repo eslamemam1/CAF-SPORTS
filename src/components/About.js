@@ -20,9 +20,10 @@ import Footer from "./Footer";
 import SectionThreeHomPage from "./SectionThreeHomPage";
 import { useTranslation } from "react-i18next";
 import SmallContact from "./SmallContact";
+
 function About(props) {
   const phoneNumber = "+971543575745";
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [width, setWidth] = useState(0);
   useEffect(() => {
     const handleResize = () => {
@@ -118,91 +119,137 @@ function About(props) {
             />
           </div>
           <div className=" pl-5">
-            <p className=" text-xl text-green-700 sm:text-4xl border-b-4 border-green-700">
-              WELCOME TO <br /> <span className="text-black">CAF</span> SPORTS
-            </p>
+          <p className=" text-xl text-green-700 sm:text-4xl ">
+            {t("WELCOME TO")} <br />
+            <span className="text-black">{t("CAF")}</span> {t("SPORTS")}
+          </p>
           </div>
         </div>
         <div className=" w-[55%] m-auto">
-          <p className=" text-xl font-medium relative bottom-8 ">
-            We are CAF One of the leading companies in Egypt specialized in the
-            field of sports construction and Artificial flooring.
-          </p>
+        <p className=" text-xl font-medium relative bottom-8 ">
+          {t(
+            "We are CAF SPORTS One of the leading companies in Egypt and United Arab Emirates specialized in the field of sports construction and Artificial flooring."
+          )}
+        </p>
         </div>
         {/**------------- */}
-        <div className="  w-[70%] m-auto flex flex-col md:flex-row sm:justify-between sm:items-center pt-5 ">
-          <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
-            <img
-              src={ourMesion}
-              alt="logo"
-              className=" sm:w-[300px] w-[200px] "
-            />
-          </div>
-          <div className=" flex flex-col md:items-start w-full md:w-[50%]">
+        <div className="  w-[80%] m-auto flex flex-col md:flex-row sm:justify-between sm:items-center pt-5 ">
+        <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
+          <img
+            src={ourMesion}
+            alt="logo"
+            className=" sm:w-[300px] w-[200px] "
+          />
+        </div>
+        <div className=" flex flex-col md:items-start w-full md:w-[60%]">
+          {i18n.language !== "ar" ? (
             <p className=" text-xl text-green-700 sm:text-2xl">
               OUR <span className="text-black">MISSION</span>
             </p>
-            <p className=" font-light text-base md:text-left">
-              to be committed, credible and transparent with our customers to
-              provide High quality products at competitive prices and take into
-              account the specifications of the products in order to achieve the
-              highest degree of success and continuity within the Egyptian
-              market .
+          ) : (
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " text-xl text-green-700 sm:text-2xl md:text-right w-full"
+                  : " text-xl text-green-700 sm:text-2xl md:text-right w-full"
+              }
+            >
+              مشروعاتنا
             </p>
-          </div>
+          )}
+          <p
+            className={
+              i18n.language !== "ar"
+                ? " font-medium text-base md:text-left text-crnter w-full"
+                : " font-medium text-base md:text-right text-center w-full"
+            }
+          >
+            {t(
+              "to be committed, credible and transparent with our customers to provide High quality products at competitive prices and take into account the specifications of the products in order to achieve the highest degree of success and continuity within the Egyptian market and United Arab Emirates market."
+            )}
+          </p>
         </div>
-        {/**------------- */}
-        <div className="  w-[70%] m-auto flex flex-col md:flex-row-reverse sm:justify-between sm:items-center pt-5 ">
-          <div className=" w-full md:w-[30%] flex justify-center md:justify-end ">
-            <img
-              src={ourVesion}
-              alt="logo"
-              className=" sm:w-[300px] w-[200px] "
-            />
-          </div>
-          <div className=" flex flex-col md:items-start w-full md:w-[50%]">
-            <p className=" text-xl text-green-700 sm:text-2xl">
+      </div>
+      {/**------------- */}
+      <div className="  w-[80%] m-auto flex flex-col md:flex-row-reverse sm:justify-between sm:items-center pt-5 ">
+        <div className=" w-full md:w-[30%] flex justify-center md:justify-end ">
+          <img
+            src={ourVesion}
+            alt="logo"
+            className=" sm:w-[300px] w-[200px] "
+          />
+        </div>
+        <div className=" flex flex-col md:items-start w-full md:w-[60%]">
+          {i18n.language !== "ar" ? (
+            <p className=" text-2xl text-green-700 sm:text-2xl">
               OUR <span className="text-black">VISION</span>
             </p>
-            <p className=" font-light text-base md:text-left">
-              to be committed, credible and transparent with our customers to
-              provide High quality products at competitive prices and take into
-              account the specifications of the products in order to achieve the
-              highest degree of success and continuity within the Egyptian
-              market .
+          ) : (
+            <p
+              className=" text-2xl text-green-700 sm:text-2xl md:text-right w-full"
+            >
+              رؤيتنا
             </p>
-          </div>
+          )}
+          <p
+            className={
+              i18n.language !== "ar"
+                ? " font-medium text-base md:text-left"
+                : " font-medium text-base md:text-right"
+            }
+          >
+            {t(
+              "At CAF SPORTS, we aspire to revolutionize the sports flooring industry by providing innovative, high-performance solutions that suit the needs of athletes, sports facilities and fitness enthusiasts around the world. Our vision is to create cutting-edge sports flooring systems that not only enhance sports performance but prioritize For safety, durability and sustainability."
+            )}
+          </p>
         </div>
+      </div>
         {/**------------- */}
-        <div className="  w-[70%] m-auto flex flex-col md:flex-row sm:justify-between sm:items-center pt-5 ">
-          <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
-            <img
-              src={OurValue}
-              alt="logo"
-              className=" sm:w-[300px] w-[200px] "
-            />
-          </div>
-          <div className=" flex flex-col md:items-start w-full md:w-[50%]">
+        <div className="  w-[80%] m-auto flex flex-col md:flex-row sm:justify-between sm:items-center pt-5 ">
+        <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
+          <img
+            src={OurValue}
+            alt="logo"
+            className=" sm:w-[300px] w-[200px] "
+          />
+        </div>
+        <div className=" flex flex-col md:items-start w-full md:w-[60%]">
+          {i18n.language !== "ar" ? (
             <p className=" text-xl text-green-700 sm:text-2xl">
               OUR <span className="text-black">VALUE</span>
             </p>
-            <p className=" font-light text-base md:text-left">
-              CAF has a distinguished group of specialized employees policy is
-              based on commitment, trust and credibility And transparency with
-              customers, while providing the best products available at prices
-              commensurate with Everyone is observing the standard
-              specifications and the high quality of the products
+          ) : (
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " text-xl text-green-700 sm:text-2xl md:text-right w-full"
+                  : " text-xl text-green-700 sm:text-2xl md:text-right w-full"
+              }
+            >
+              قيمتنا
             </p>
-          </div>
+          )}
+          <p
+            className={
+              i18n.language !== "ar"
+                ? " font-medium text-base md:text-left text-crnter w-full"
+                : " font-medium text-base md:text-right text-center w-full"
+            }
+          >
+            {t(
+              "CAF Sports has a distinguished group of specialized employees policy is based on commitment, trust and credibility And transparency with customers, while providing the best products available at prices commensurate with Everyone is observing the standard specifications and the high quality of the products"
+            )}
+          </p>
         </div>
+      </div>
         <div className=" flex flex-col lg:flex-row w-[85%] pt-16 items-center justify-around m-auto">
           <div className=" rounded-border pb-5 w-[300px] sm:w-[400px] h-[230px] lg:w-[230px] sm:h-[230px] ">
             <img src={Vector} alt="logo" className=" w-[50px] " />
             <div className="w-[80%] m-auto  flex flex-col justify-center items-center">
               <img src={Expert} alt="logo" className=" w-[50px]" />
-              <p className=" font-bold text-sm mt-1">Expert & Professional</p>
+              <p className=" font-bold text-sm mt-1">{t("Expert & Professional")}</p>
               <p className="font-normal text-sm mt-1">
-                Always distinguished in all designs and products
+                {t("Always distinguished in all designs and products")}
               </p>
             </div>
           </div>
@@ -210,10 +257,9 @@ function About(props) {
             <img src={Vector} alt="logo" className=" w-[50px] " />
             <div className="w-[80%] m-auto  flex flex-col justify-center items-center">
               <img src={Support} alt="logo" className=" w-[50px]" />
-              <p className=" font-bold text-sm mt-1">High Quality Work</p>
+              <p className=" font-bold text-sm mt-1">{t("High Quality Work")}</p>
               <p className="font-normal text-sm mt-1">
-                Our products conform to standard specifications and are suitable
-                for changing weather conditions
+                {t("Our products conform to standard specifications and are suitable for changing weather conditions")}
               </p>
             </div>
           </div>
@@ -221,10 +267,9 @@ function About(props) {
             <img src={Vector} alt="logo" className=" w-[50px] " />
             <div className="w-[80%] m-auto  flex flex-col justify-center items-center">
               <img src={HighQualityWork} alt="logo" className=" w-[50px]" />
-              <p className=" font-bold text-sm mt-1">24/7 Help Support</p>
+              <p className=" font-bold text-sm mt-1">{t("24/7 Help Support")}</p>
               <p className="font-normal text-sm mt-1">
-                Always at your service and the goal is to always satisfy our
-                customers
+                {t("Always at your service and the goal is to always satisfy our customers")}
               </p>
             </div>
           </div>
