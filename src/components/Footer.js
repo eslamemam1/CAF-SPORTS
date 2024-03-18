@@ -25,7 +25,12 @@ const Footer = (props) => {
         alt="logo"
         className=" sm:w-[100px] w-[90px] absolute"
       />
-      <div className=" flex flex-col sm:flex-row gap-5 w-[90%] sm:w-[85%] m-auto pt-10">
+      
+      <div className={
+                i18n.language !== "ar"
+                  ? " flex flex-col sm:flex-row gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
+                  : " flex flex-col sm:flex-row-reverse gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
+              }>
         <div className=" flex items-center sm:items-start flex-col w-full sm:w-[33.3%]">
           <div className=" h-[100px] flex items-center">
             <div>
