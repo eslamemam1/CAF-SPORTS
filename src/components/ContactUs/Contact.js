@@ -12,7 +12,7 @@ import UAEMap from "./UAEMap";
 import SmallContact from "../SmallContact";
 function Contact() {
   const { t } = useTranslation();
-  const phoneNumber = "123456789";
+  const phoneNumber = "+971543575745";
   const [width, setWidth] = useState(0);
   useEffect(() => {
     const handleResize = () => {
@@ -65,7 +65,7 @@ function Contact() {
         </div>
         <div className="relative flex w-[85%] m-auto">
           <a
-            href="https://google.com"
+            href="https://www.facebook.com/ConsultantFlooringCAF?mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -78,7 +78,7 @@ function Contact() {
           >
             <FaWhatsapp className="w-[30px] absolute bottom-5 right-11 text-white" />
           </a>
-          <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">
+          <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">
             <FaPhone className="w-[30px] absolute bottom-5 right-[90px] text-white" />
           </a>
         </div>

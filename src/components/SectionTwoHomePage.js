@@ -40,7 +40,7 @@ const SectionTwoHomePage = () => {
           </p>
         </div>
       </div>
-      <div className=" w-[55%] m-auto">
+      <div className=" w-[80%] m-auto">
         <p className=" text-xl font-medium relative bottom-8 ">
           {t(
             "We are CAF SPORTS One of the leading companies in Egypt and United Arab Emirates specialized in the field of sports construction and Artificial flooring."
@@ -48,7 +48,7 @@ const SectionTwoHomePage = () => {
         </p>
       </div>
       {/**------------- */}
-      <div className="  w-[70%] m-auto flex flex-col md:flex-row sm:justify-between sm:items-center pt-5 ">
+      <div className="  w-[80%] m-auto flex flex-col md:flex-row sm:justify-between sm:items-center pt-5 ">
         <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
           <img
             src={ourMesion}
@@ -56,7 +56,7 @@ const SectionTwoHomePage = () => {
             className=" sm:w-[300px] w-[200px] "
           />
         </div>
-        <div className=" flex flex-col md:items-start w-full md:w-[50%]">
+        <div className=" flex flex-col md:items-start w-full md:w-[60%]">
           {i18n.language !== "ar" ? (
             <p className=" text-xl text-green-700 sm:text-2xl">
               OUR <span className="text-black">MISSION</span>
@@ -86,15 +86,15 @@ const SectionTwoHomePage = () => {
         </div>
       </div>
       {/**------------- */}
-      <div className="  w-[70%] m-auto flex flex-col md:flex-row-reverse sm:justify-between sm:items-center pt-5 ">
-        <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
+      <div className="  w-[80%] m-auto flex flex-col md:flex-row-reverse sm:justify-between sm:items-center pt-5 ">
+        <div className=" w-full md:w-[30%] flex justify-center md:justify-end ">
           <img
             src={ourVesion}
             alt="logo"
             className=" sm:w-[300px] w-[200px] "
           />
         </div>
-        <div className=" flex flex-col md:items-start w-full md:w-[50%]">
+        <div className=" flex flex-col md:items-start w-full md:w-[60%]">
           {i18n.language !== "ar" ? (
             <p className=" text-2xl text-green-700 sm:text-2xl">
               OUR <span className="text-black">VISION</span>

@@ -21,7 +21,7 @@ import SectionThreeHomPage from "./SectionThreeHomPage";
 import { useTranslation } from "react-i18next";
 import SmallContact from "./SmallContact";
 function About(props) {
-  const phoneNumber = "123456789";
+  const phoneNumber = "+971543575745";
   const { t } = useTranslation();
   const [width, setWidth] = useState(0);
   useEffect(() => {
@@ -75,7 +75,7 @@ function About(props) {
         </div>
         <div className="relative flex w-[85%] m-auto">
           <a
-            href="https://google.com"
+            href="https://www.facebook.com/ConsultantFlooringCAF?mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ function About(props) {
           >
             <FaWhatsapp className="w-[30px] absolute bottom-5 right-11 text-white" />
           </a>
-          <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">
+          <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">
             <FaPhone className="w-[30px] absolute bottom-5 right-[90px] text-white" />
           </a>
         </div>
@@ -153,7 +153,7 @@ function About(props) {
         </div>
         {/**------------- */}
         <div className="  w-[70%] m-auto flex flex-col md:flex-row-reverse sm:justify-between sm:items-center pt-5 ">
-          <div className=" w-full md:w-[30%] flex justify-center md:justify-start ">
+          <div className=" w-full md:w-[30%] flex justify-center md:justify-end ">
             <img
               src={ourVesion}
               alt="logo"

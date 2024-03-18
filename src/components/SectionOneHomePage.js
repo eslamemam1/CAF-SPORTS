@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 const SectionOneHomePage = (props) => {
-  const phoneNumber = "123456789";
+  const phoneNumber = "+971543575745";
   const { i18n } = useTranslation();
   const { t } = useTranslation();
   const [width, setWidth] = useState(0);
@@ -54,7 +54,7 @@ const SectionOneHomePage = (props) => {
               </div>
             )}
           </div>
-          <div className="sm:pl-[50px] pt-10 md:pt-0 sm:pr-[50px] w-[100%] md:w-[60%] flex-col justify-center">
+          <div className="sm:pl-[50px] pt-10 md:pt-0 sm:pr-[50px] w-[100%] md:w-[60%] flex-col ">
             <p
               className={
                 i18n.language !== "ar"
@@ -79,7 +79,7 @@ const SectionOneHomePage = (props) => {
         </div>
         <div className="relative flex w-[85%] m-auto">
           <a
-            href="https://google.com"
+            href="https://www.facebook.com/ConsultantFlooringCAF?mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -92,7 +92,7 @@ const SectionOneHomePage = (props) => {
           >
             <FaWhatsapp className="w-[30px] absolute bottom-5 right-11 text-white" />
           </a>
-          <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">
+          <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">
             <FaPhone className="w-[30px] absolute bottom-5 right-[90px] text-white" />
           </a>
         </div>

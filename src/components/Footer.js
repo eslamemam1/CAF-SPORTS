@@ -17,7 +17,7 @@ const Footer = (props) => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   };
-  const phoneNumber = "123456789";
+  const phoneNumber = "+971543575745";
   return (
     <div className=" min-h-[40vh] bg-black relative">
       <img
@@ -42,7 +42,7 @@ const Footer = (props) => {
           </div>
           <div className=" flex gap-3 mt-5 sm:pt-0 items-center">
             <a
-              href="https://google.com"
+              href="https://www.facebook.com/ConsultantFlooringCAF?mibextid=ZbWKwL"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -55,7 +55,7 @@ const Footer = (props) => {
             >
               <FaWhatsapp className="w-[30px] h-[50px] text-white" />
             </a>
-            <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">
+            <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">
               <FaPhone className="w-[30px] h-[50px] text-white" />
             </a>
           </div>
@@ -131,7 +131,7 @@ const Footer = (props) => {
             <div className="sm:ml-3 flex gap-2 items-center text-start">
               <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal text-xs sm:text-sm sm:w-[170px] text-[#fff]">
-                <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">+971543575745</a>
+                <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">+971543575745</a>
               </li>
             </div>
             <div className="sm:ml-2 flex sm:gap-2 items-center">
@@ -146,10 +146,10 @@ const Footer = (props) => {
             </div>
             <div className="sm:ml-3 flex gap-2 items-center text-start">
               <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
-              <li className="font-normal text-xs sm:text-sm sm:w-[170px] text-[#fff]">
-                <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">01141227755</a>
+              <li className="font-normal flex gap-2 flex-wrap text-xs sm:text-sm sm:w-[170px] text-[#fff]">
+                <a href="tel:01141227755" target="_blank" rel="noopener noreferrer">01141227755</a>
                 <br />
-                <a href="tel:+1234567890" target="_blank" rel="noopener noreferrer">01126484032</a>
+                <a href="tel:01126484032" target="_blank" rel="noopener noreferrer">01126484032</a>
               </li>
             </div>
           </ul>
