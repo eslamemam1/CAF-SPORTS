@@ -57,9 +57,9 @@ const SectionOneHomePage = (props) => {
           <div className="sm:pl-[50px] pt-10 md:pt-0 sm:pr-[50px] w-[100%] md:w-[60%] flex-col ">
             <p
               className={
-                i18n.language !== "ar"
-                  ? " text-4xl lg:text-6xl text-center md:text-left text-white m-auto sm:m-0 pb-5 w-[90%] lg:w-[80%]"
-                  : " text-4xl lg:text-6xl text-center md:text-right text-white m-auto sm:m-0 pb-5 w-[90%] lg:w-[80%]"
+                i18n.language !== "ar"  
+                  ? " text-5xl md:text-3xl lg:text-5xl text-center md:text-left text-white m-auto pb-5 w-[80%]"
+                  : " text-5xl md:text-3xl lg:text-5xl text-center md:text-right text-white m-auto pb-5 w-[80%]"
               }
             >
               {t("Sports Flooring")}
@@ -67,8 +67,8 @@ const SectionOneHomePage = (props) => {
             <p
               className={
                 i18n.language !== "ar"
-                  ? " text-base font-light text-center md:text-left text-white m-auto sm:m-0 w-[90%] lg:w-[80%]"
-                  : " text-base font-light text-center md:text-right text-white m-auto sm:m-0 w-[90%] lg:w-[80%]"
+                  ? " text-base font-light text-center md:text-left text-white m-auto w-[80%] "
+                  : " text-base font-light text-center md:text-right text-white m-auto w-[80%] "
               }
             >
               {t(

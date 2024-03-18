@@ -100,7 +100,7 @@
 }
 .style-blend-mode {
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
   background-position: center;
 }
