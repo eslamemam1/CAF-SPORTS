@@ -25,13 +25,21 @@ const Footer = (props) => {
         alt="logo"
         className=" sm:w-[100px] w-[90px] absolute"
       />
-      
-      <div className={
-                i18n.language !== "ar"
-                  ? " flex flex-col sm:flex-row gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
-                  : " flex flex-col sm:flex-row-reverse gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
-              }>
-        <div className=" flex items-center sm:items-start flex-col w-full sm:w-[33.3%]">
+
+      <div
+        className={
+          i18n.language !== "ar"
+            ? " flex flex-col sm:flex-row gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
+            : " flex flex-col sm:flex-row-reverse gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
+        }
+      >
+        <div
+          className={
+            i18n.language !== "ar"
+              ? " flex items-center sm:items-start flex-col w-full sm:w-[33.3%]"
+              : " flex items-center sm:items-end flex-col w-full sm:w-[33.3%]"
+          }
+        >
           <div className=" h-[100px] flex items-center">
             <div>
               <img src={FooterLogo} alt="FooterLogo" className="w-[170px]" />
@@ -39,7 +47,13 @@ const Footer = (props) => {
           </div>
           {/**-------------------- */}
           <div className=" flex items-center">
-            <p className=" text-sm font-light sm:text-start text-center text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " text-sm font-light sm:text-start text-center text-white"
+                  : " text-sm font-light sm:text-end text-center text-white"
+              }
+            >
               {t(
                 "We are CAF Sports Company, one of the leading companies in Egypt and the United Arab Emirates specialized in the field of sports construction and industrial flooring"
               )}
@@ -60,7 +74,11 @@ const Footer = (props) => {
             >
               <FaWhatsapp className="w-[30px] h-[50px] text-white" />
             </a>
-            <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">
+            <a
+              href="tel:+971543575745"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaPhone className="w-[30px] h-[50px] text-white" />
             </a>
           </div>
@@ -68,13 +86,13 @@ const Footer = (props) => {
         {/**-------------------- */}
         <div className=" flex items-center flex-col w-full sm:w-[33.3%]">
           <p className=" text-green-700 font-medium mt-4 text-lg">
-            Quick Links
+            {t("Quick Links")}
           </p>
           <ul
             className={
               i18n.language === "en"
                 ? " flex flex-row mt-2 items-start sm:flex-col gap-5"
-                : " flex flex-row mt-2 items-start sm:flex-col gap-5"
+                : " flex flex-row mt-2 items-center sm:flex-col gap-5"
             }
           >
             <li className=" font-normal text-xs sm:text-sm text-[#ffffff]">
@@ -108,7 +126,7 @@ const Footer = (props) => {
         {/**-------------------- */}
         <div className=" flex items-center flex-col w-full sm:w-[33.3%]">
           <p className="text-green-700 font-medium md:pr-[115px] mt-4 text-lg">
-            Reach Us
+            {t("Reach Us")}
           </p>
           <ul
             className={
@@ -117,13 +135,13 @@ const Footer = (props) => {
                 : " flex flex-row flex-wrap mt-2 justify-center items-start sm:flex-col gap-2 sm:gap-5:"
             }
           >
-            <div className="sm:ml-3 flex gap-2 items-center">
+            <div className="sm:ml-2 flex gap-2 items-start">
               <img src={mail} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
                 Mohamedobrahim@gmail.com
               </li>
             </div>
-            <div className="sm:ml-2 flex sm:gap-2 items-center">
+            <div className="sm:ml-2 flex sm:gap-2 items-start">
               <img
                 src={location}
                 className=" w-[20px] sm:w-[25px]"
@@ -133,13 +151,19 @@ const Footer = (props) => {
                 United Arab Emirates
               </li>
             </div>
-            <div className="sm:ml-3 flex gap-2 items-center text-start">
+            <div className="sm:ml-2 flex gap-2 items-start text-start">
               <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal text-xs sm:text-sm sm:w-[170px] text-[#fff]">
-                <a href="tel:+971543575745" target="_blank" rel="noopener noreferrer">+971543575745</a>
+                <a
+                  href="tel:+971543575745"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +971543575745
+                </a>
               </li>
             </div>
-            <div className="sm:ml-2 flex sm:gap-2 items-center">
+            <div className="sm:ml-2 flex sm:gap-2 items-start">
               <img
                 src={location}
                 className=" w-[20px] sm:w-[25px]"
@@ -149,22 +173,37 @@ const Footer = (props) => {
                 Egypt
               </li>
             </div>
-            <div className="sm:ml-3 flex gap-2 items-center text-start">
+            <div className="sm:ml-2 flex gap-2 items-start text-start">
               <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal flex gap-2 flex-wrap text-xs sm:text-sm sm:w-[170px] text-[#fff]">
-                <a href="tel:01141227755" target="_blank" rel="noopener noreferrer">01141227755</a>
+                <a
+                  href="tel:01141227755"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  01141227755
+                </a>
                 <br />
-                <a href="tel:01126484032" target="_blank" rel="noopener noreferrer">01126484032</a>
+                <a
+                  href="tel:01126484032"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  01126484032
+                </a>
               </li>
             </div>
           </ul>
         </div>
         {/**-------------------- */}
       </div>
-      <div className="w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-start">
+      <div className={
+              i18n.language === "en"
+                ? "w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-start"
+                : "w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-end"
+            }>
         <p className=" text-sm sm:text-lg font-light text-white">
-          Copyright © 2024 All rights reserved | This Website is made by Eslam
-          Emam
+          {t("Copyright © 2024 All rights reserved | This Website is made by Eslam Emam")}
         </p>
       </div>
       <img

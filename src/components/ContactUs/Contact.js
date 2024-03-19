@@ -84,13 +84,13 @@ function Contact() {
         </div>
       </div>
       <div className=" bg-slate-100">
-        <div className=" flex flex-col md:flex-row w-[85%] m-auto items-center justify-around font-medium text-sm min-h-[100vh]">
-        <UAEMap/>
-        <ContactForm />
+        <div className=" flex flex-col md:flex-row gap-5 w-[80%] m-auto items-center justify-around font-medium text-sm min-h-[60vh]">
+          <UAEMap />
+          <ContactForm />
         </div>
       </div>
       <Footer />
-      <SmallContact/>
+      <SmallContact />
     </div>
   );
 }
