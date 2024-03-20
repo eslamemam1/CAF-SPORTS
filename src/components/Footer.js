@@ -36,8 +36,8 @@ const Footer = (props) => {
         <div
           className={
             i18n.language !== "ar"
-              ? " flex items-center sm:items-start flex-col w-full sm:w-[33.3%]"
-              : " flex items-center sm:items-end flex-col w-full sm:w-[33.3%]"
+              ? " flex items-center sm:items-start flex-col w-full sm:w-[30%]"
+              : " flex items-center sm:items-end flex-col w-full sm:w-[30%]"
           }
         >
           <div className=" h-[100px] flex items-center">
@@ -84,7 +84,7 @@ const Footer = (props) => {
           </div>
         </div>
         {/**-------------------- */}
-        <div className=" flex items-center flex-col w-full sm:w-[33.3%]">
+        <div className=" flex items-center flex-col w-full sm:w-[30%]">
           <p className=" text-green-700 font-medium mt-4 text-lg">
             {t("Quick Links")}
           </p>
@@ -124,7 +124,7 @@ const Footer = (props) => {
           </ul>
         </div>
         {/**-------------------- */}
-        <div className=" flex items-center flex-col w-full sm:w-[33.3%]">
+        <div className=" flex items-center flex-col w-full sm:w-[40%]">
           <p className="text-green-700 font-medium md:pr-[115px] mt-4 text-lg">
             {t("Reach Us")}
           </p>
