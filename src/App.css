@@ -310,7 +310,7 @@
 
 .image {
   flex: 0 0 calc(33.33% - 10px); /* Each image takes up one-third of the container's width */
-  height: 200px; /* Set the height of each image */
+  height: 230px; /* Set the height of each image */
   transition: 0.5s;
 }
 
@@ -378,6 +378,12 @@
   }
 }
 .centered-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon1 {
   position: absolute;
   top: 50%;
   left: 50%;

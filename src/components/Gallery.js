@@ -39,17 +39,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Artificial Grass for Sports Surfaces")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -61,17 +72,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Artificial Grass for Landscape")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -83,17 +105,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
-            {t("Artificial Grass for Landscape")}
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
+              {t("Artificial Grass for Landscape")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -105,17 +138,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Acrylic Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -127,17 +171,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Acrylic Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -149,17 +204,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Acrylic Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -171,17 +237,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Rubber Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -193,17 +270,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Rubber Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -215,17 +303,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Rubber Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -237,17 +336,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Tartan Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -259,17 +369,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Tartan Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
@@ -281,17 +402,28 @@ function Gallery() {
         }}
       >
         <div className="overlay">
-          <div className="overlay-content flex flex-col items-start justify-end h-[200px] v ">
+          <div className="overlay-content relative flex flex-col items-start justify-end h-[230px] v ">
             <div className=" w-full flex justify-center items-center ">
               <FontAwesomeIcon
                 icon={faExternalLinkAlt}
-                className="w-[30px] icon text-green-500 "
+                className="w-[30px] icon icon1 text-green-500 "
                 id="icon"
               />
             </div>
-            <p className=" font-light text-xl pl-5 pb-5 text-white">
+            <p
+              className={
+                i18n.language !== "ar"
+                  ? " font-normal text-xl w-full text-left pl-5 text-white"
+                  : " font-semibold text-xl pr-5 w-full text-right text-white"
+              }
+            >
               {t("Tartan Flooring")}
             </p>
+            <p className={
+                i18n.language !== "ar"
+                  ? " font-light text-sm w-full text-left pl-5 pb-5 text-white"
+                  : " font-light text-xl pr-5 w-full text-right pb-5 text-white"
+              }>{t("Click here")}</p>
           </div>
         </div>
       </div>
