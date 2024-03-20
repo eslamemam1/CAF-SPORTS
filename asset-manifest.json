@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CAF-SPORTS/static/css/main.ac6fc5a9.css",
-    "main.js": "/CAF-SPORTS/static/js/main.14c8ec38.js",
+    "main.js": "/CAF-SPORTS/static/js/main.691fd31b.js",
     "static/js/787.101a428e.chunk.js": "/CAF-SPORTS/static/js/787.101a428e.chunk.js",
     "static/media/backGround.jpg": "/CAF-SPORTS/static/media/backGround.eeb99c2d954df894fc70.jpg",
     "static/media/OurProjects.png": "/CAF-SPORTS/static/media/OurProjects.aced294cb34a69eb2dcc.png",
@@ -43,11 +43,11 @@
     "static/media/Vector2.svg": "/CAF-SPORTS/static/media/Vector2.e42f9cbf392e799a7d8d5e661e2bb8c9.svg",
     "static/media/Vector.svg": "/CAF-SPORTS/static/media/Vector.e32fe0f4044cbff4586dcc55cb32a2a7.svg",
     "main.ac6fc5a9.css.map": "/CAF-SPORTS/static/css/main.ac6fc5a9.css.map",
-    "main.14c8ec38.js.map": "/CAF-SPORTS/static/js/main.14c8ec38.js.map",
+    "main.691fd31b.js.map": "/CAF-SPORTS/static/js/main.691fd31b.js.map",
     "787.101a428e.chunk.js.map": "/CAF-SPORTS/static/js/787.101a428e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac6fc5a9.css",
-    "static/js/main.14c8ec38.js"
+    "static/js/main.691fd31b.js"
   ]
 }
