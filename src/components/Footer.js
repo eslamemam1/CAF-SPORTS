@@ -91,8 +91,8 @@ const Footer = (props) => {
           <ul
             className={
               i18n.language === "en"
-                ? " flex flex-row mt-2 items-start sm:flex-col gap-5"
-                : " flex flex-row mt-2 items-center sm:flex-col gap-5"
+                ? " flex flex-row mt-2 items-start sm:flex-col gap-3 sm:gap-5"
+                : " flex flex-row mt-2 items-center sm:flex-col gap-3 sm:gap-5"
             }
           >
             <li className=" font-normal text-xs sm:text-sm text-[#ffffff]">
@@ -162,7 +162,8 @@ const Footer = (props) => {
                   +971543575745
                 </a>
               </li>
-            </div>
+            </div>   
+            <div className=" flex flex-row gap-2 sm:flex-col">
             <div className="sm:ml-2 flex sm:gap-2 items-start">
               <img
                 src={location}
@@ -192,6 +193,7 @@ const Footer = (props) => {
                   01126484032
                 </a>
               </li>
+            </div>
             </div>
           </ul>
         </div>
