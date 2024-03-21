@@ -21,7 +21,7 @@ function DropdownMenu() {
             <button
               className={
                 i18n.language !== "ar"
-                  ? " enFont text-sm font-light text-white "
+                  ? " enFont text-sm font-bold text-white "
                   : " hidden"
               }
               onClick={() => {
@@ -37,7 +37,7 @@ function DropdownMenu() {
             <button
               className={
                 i18n.language !== "en"
-                  ? " enFont text-sm font-light text-white "
+                  ? " enFont text-sm font-bold text-white "
                   : " hidden"
               } /** effect */
               onClick={() => {
@@ -45,7 +45,7 @@ function DropdownMenu() {
                 setTogol(!togol);
               }}
             >
-              Eng
+              En
             </button>
           </li>
         </ul>
