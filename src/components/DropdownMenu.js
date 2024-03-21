@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import language from "../imges/translationIcon.svg";
-
+import {FaGlobe } from "react-icons/fa";
 function DropdownMenu() {
   const { i18n } = useTranslation();
   const [togol, setTogol] = useState(true);
@@ -13,7 +12,7 @@ function DropdownMenu() {
           : " dropdown flex gap-5 items-center relative z-10"
       }
     >
-      <img src={language} className=" w-7" alt="logo" />
+      <FaGlobe className="fa-regular text-white text-2xl" />
       {
         <ul className="dropdown-menu">
           <li>
