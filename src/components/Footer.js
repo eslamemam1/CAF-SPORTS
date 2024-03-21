@@ -135,7 +135,7 @@ const Footer = (props) => {
                 : " flex flex-row flex-wrap mt-2 justify-center items-start sm:flex-col gap-2 sm:gap-5:"
             }
           >
-            <div className="sm:ml-2 flex gap-2 items-start">
+            <div className="sm:ml-2 w-[100%] flex gap-2 justify-center">
               <img src={mail} alt="mail" className=" w-[20px] sm:w-[25px]" />
               <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
                 Mohamedobrahim@gmail.com
