@@ -1,12 +1,13 @@
-import backgroundImage from "../imges/backGround.jpg";
-import logoForHeroSection from "../imges/logoForHeroSection.svg";
-import logoForHeroSection1 from "../imges/logoForHeroSection1.svg";
+import backgroundImage from "../../imges/homePage/2.jpg";
+import logoForHeroSection from "../../imges/logoForHeroSection.svg";
+import logoForHeroSection1 from "../../imges/logoForHeroSection1.svg";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
-const SectionOneHomePage = (props) => {
+
+const HomePageBgThree = () => {
   const phoneNumber = "+971543575745";
   const { i18n } = useTranslation();
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const SectionOneHomePage = (props) => {
   return (
     <div className=" text-center font-bold text-2xl sm:text-9xl h ">
       <div
-        className="style-blend-mode h "
+        className="style-blend-mode-homePage2 h "
         style={{
           backgroundImage: `url(${backgroundImage})`,
         }}
@@ -62,17 +63,17 @@ const SectionOneHomePage = (props) => {
                   : " text-5xl md:text-3xl lg:text-5xl text-center md:text-right text-white m-auto pb-5 w-[80%]"
               }
             >
-              {t("Sports Flooring")}
+              {t("Unmatched Durability")}
             </p>
             <p
               className={
                 i18n.language !== "ar"
-                  ? " text-base font-light text-center md:text-left text-white m-auto w-[80%] "
-                  : " text-base font-light text-center md:text-right text-white m-auto w-[80%] "
+                  ? " text-xl font-light text-center md:text-left text-white m-auto w-[80%] "
+                  : " text-xl font-light text-center md:text-right text-white m-auto w-[80%] "
               }
             >
               {t(
-                "Explore our premium sports flooring options at Caf Sports, designed for superior performance and safety. Contact us today for customized solutions and expert guidance"
+                "Experience Unparalleled Endurance: Unmatched Durability That Stands the Test of Time"
               )}
             </p>
           </div>
@@ -101,4 +102,4 @@ const SectionOneHomePage = (props) => {
   );
 };
 
-export default SectionOneHomePage;
+export default HomePageBgThree;

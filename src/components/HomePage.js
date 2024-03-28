@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import SmallContact from "./SmallContact";
-import SectionOneHomePage from "./SectionOneHomePage";
 import SectionTwoHomePage from "./SectionTwoHomePage";
 import SectionThreeHomPage from "./SectionThreeHomPage";
 import SectionFourHomePage from "./SectionFourHomePage";
 import Footer from "./Footer";
+import ImageSlider from "./ImageSlider";
 function HomePage(props) {
   const [togol2, setTogol2] = useState(false);
   const handelClick = () => {
@@ -21,8 +21,10 @@ function HomePage(props) {
       <div className="h">
         {/** <p className=" text-white leading-[92vh]">{props.home}</p> */}
         <div className=" h-full">
-          {/** <SimpleSlider /> */}
+          {/** <SimpleSlider /> 
           <SectionOneHomePage />
+          */}
+          <ImageSlider/>
           <SectionTwoHomePage />
           <SectionThreeHomPage/>
           <SectionFourHomePage/>

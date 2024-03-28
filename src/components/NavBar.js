@@ -53,8 +53,8 @@ function NavBar(props) {
         <div
           className={
             i18n.language === "en"
-              ? " flex w-[85%] m-auto justify-between items-center sm:h-[13vh] h-[10vh]  "
-              : " flex w-[85%] m-auto justify-between items-center sm:h-[13vh] h-[10vh] flex-row-reverse" /** flex-row-reverse */
+              ? " flex w-[85%] m-auto justify-between items-center sm:h-[13vh] h-[10vh] relative z-10 "
+              : " flex w-[85%] m-auto justify-between items-center sm:h-[13vh] h-[10vh] relative z-10 flex-row-reverse" /** flex-row-reverse */
           }
         >
           <div

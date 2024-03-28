@@ -22,7 +22,7 @@
     "All designs are planned from all planning works and reviewed by daily maintenance ." : "يتم تخطيط جميع التصاميم من جميع أعمال التخطيط ومراجعتها من خلال الصيانة اليومية." ,
     "Design" : "تصميم" ,
     "All products are eco-friendly, animal-safe, and weather-resistant." : "جميع المنتجات صديقة للبيئة وآمنة على الحيوانات ومقاومة للعوامل الجوية." ,
-    "We are CAF Sports Company, one of the leading companies in Egypt and the United Arab Emirates specialized in the field of sports construction and industrial flooring" : "نحن شركة كاف سبورتس إحدى الشركات الرائدة في مصر و الامرات العربية المتحده المتخصصة في مجال البناء الرياضي والأرضيات الصناعية" ,
+    "We are CAF Sports Company, one of the leading companies in Egypt and the United Arab Emirates specialized in the field of sports construction and industrial flooring" : "نحن شركة كاف سبورتس إحدى الشركات الرائدة في مصر والإمارات العربية المتحدة المتخصصة في مجال الإنشاءات الرياضية والأرضيات الصناعية" ,
     "CAF Sports has a distinguished group of specialized employees policy is based on commitment, trust and credibility And transparency with customers, while providing the best products available at prices commensurate with Everyone is observing the standard specifications and the high quality of the products" : "لدى كاف سبورتس مجموعة متميزة من الموظفين المتخصصين. سياسة مبنية على الالتزام والثقة والمصداقية والشفافية مع العملاء، مع تقديم أفضل المنتجات المتوفرة بأسعار تتناسب مع الجميع مع مراعاة المواصفات القياسية والجودة العالية للمنتجات."   ,
     "Expert & Professional" : "خبير ومحترف" ,
     "Always distinguished in all designs and products" : "متميزون دائما في كافة التصاميم والمنتجات",
@@ -43,6 +43,12 @@
     "Acrylic Flooring" : "ارضيات اكريليك",
     "Rubber Flooring" : "أرضيات مطاطية" ,
     "Tartan Flooring" : "أرضيات الترتان" ,
-    "Click here" : "انقر هنا"
+    "Click here" : "انقر هنا",
+    "Customized Style":"نمط مخصص",
+    "Indulge in the Luxury of Tailored Style, Crafted Exclusively for You" : "انغمس في فخامة الطراز المصمم خصيصًا لك",
+    "Unmatched Durability" : "متانة لا مثيل لها" ,
+    "Experience Unparalleled Endurance: Unmatched Durability That Stands the Test of Time" : "استمتع بتجربة تحمل لا مثيل لها: متانة لا مثيل لها تصمد أمام اختبار الزمن",
+    "Rise Above the Rest: Elevate Your Performance to Extraordinary Levels" :"الارتفاع فوق الباقي: ارفع أدائك إلى مستويات استثنائية",
+    "Elevate Performance" : "رفع الأداء"
 
 }
