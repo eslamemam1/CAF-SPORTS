@@ -92,7 +92,7 @@ const Footer = (props) => {
             className={
               i18n.language === "en"
                 ? " flex flex-row mt-2 items-start sm:flex-col gap-3 sm:gap-5"
-                : " flex flex-row mt-2 items-center sm:flex-col gap-3 sm:gap-5"
+                : " flex flex-row-reverse mt-2 items-center sm:flex-col gap-3 sm:gap-5"
             }
           >
             <li className=" font-normal text-xs sm:text-sm text-[#ffffff]">

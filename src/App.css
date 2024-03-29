@@ -176,6 +176,7 @@ bottom: 50px;
 
 .slick-next {
   right: -50px;
+  z-index: 5;
 }
 .slick-prev {
   left: -50px;

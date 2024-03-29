@@ -30,9 +30,10 @@ function Gallery() {
     setModalIsOpen(false);
   };
   return (
-    <div className="gallery">
+    <div className=" relative ">
+      <div className="gallery">
       <div
-        className="image backgroundColorGallary image-container"
+        className="image backgroundColorGallary image-container "
         onClick={() => openModal(image1)}
         style={{
           backgroundImage: `url(${image1})`,
@@ -434,6 +435,7 @@ function Gallery() {
         </button>
         <img src={selectedImage} alt="Selected Image" className="modal-image" />
       </Modal>
+    </div>
     </div>
   );
 }
