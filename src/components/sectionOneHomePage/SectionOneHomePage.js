@@ -67,8 +67,8 @@ const SectionOneHomePage = (props) => {
             <p
               className={
                 i18n.language !== "ar"
-                  ? " text-base font-light text-center md:text-left text-white m-auto w-[80%] "
-                  : " text-base font-light text-center md:text-right text-white m-auto w-[80%] "
+                  ? " text-base font-normal text-center md:text-left text-white m-auto w-[80%] "
+                  : " text-base font-normal text-center md:text-right text-white m-auto w-[80%] "
               }
             >
               {t(

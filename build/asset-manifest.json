@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/CAF-SPORTS/static/css/main.4ba92e5c.css",
-    "main.js": "/CAF-SPORTS/static/js/main.c695d324.js",
+    "main.css": "/CAF-SPORTS/static/css/main.941a2a0c.css",
+    "main.js": "/CAF-SPORTS/static/js/main.8552d75b.js",
     "static/js/787.101a428e.chunk.js": "/CAF-SPORTS/static/js/787.101a428e.chunk.js",
+    "static/media/6.jpg": "/CAF-SPORTS/static/media/6.26dab80404a7881507e1.jpg",
     "static/media/backGround.jpg": "/CAF-SPORTS/static/media/backGround.eeb99c2d954df894fc70.jpg",
     "static/media/1.jpg": "/CAF-SPORTS/static/media/1.2cbe8074a5d4b5a5a299.jpg",
     "static/media/2.jpg": "/CAF-SPORTS/static/media/2.2e3ec289787d7acdbf91.jpg",
@@ -20,7 +21,6 @@
     "static/media/8.jpg": "/CAF-SPORTS/static/media/8.02a5b9082e43924295e8.jpg",
     "static/media/ourVesion.png": "/CAF-SPORTS/static/media/ourVesion.6441c3c40bd2836b9846.png",
     "static/media/12.jpg": "/CAF-SPORTS/static/media/12.649e5175506342f90e8b.jpg",
-    "static/media/6.jpg": "/CAF-SPORTS/static/media/6.26dab80404a7881507e1.jpg",
     "static/media/9.jpg": "/CAF-SPORTS/static/media/9.a09dfb797e703988dcdf.jpg",
     "static/media/BackGroundOfSectionTwo.svg": "/CAF-SPORTS/static/media/BackGroundOfSectionTwo.62ab0bedde2150214c01f09d7409d33a.svg",
     "static/media/BackGroundOfSectionTwo1.svg": "/CAF-SPORTS/static/media/BackGroundOfSectionTwo1.5a9f6da76b7a7242bd86d3e6a759f488.svg",
@@ -41,12 +41,12 @@
     "static/media/logoForHeroSection1.svg": "/CAF-SPORTS/static/media/logoForHeroSection1.0a7f757031c3c5f88241b26f4ba7af91.svg",
     "static/media/Vector2.svg": "/CAF-SPORTS/static/media/Vector2.e42f9cbf392e799a7d8d5e661e2bb8c9.svg",
     "static/media/Vector.svg": "/CAF-SPORTS/static/media/Vector.e32fe0f4044cbff4586dcc55cb32a2a7.svg",
-    "main.4ba92e5c.css.map": "/CAF-SPORTS/static/css/main.4ba92e5c.css.map",
-    "main.c695d324.js.map": "/CAF-SPORTS/static/js/main.c695d324.js.map",
+    "main.941a2a0c.css.map": "/CAF-SPORTS/static/css/main.941a2a0c.css.map",
+    "main.8552d75b.js.map": "/CAF-SPORTS/static/js/main.8552d75b.js.map",
     "787.101a428e.chunk.js.map": "/CAF-SPORTS/static/js/787.101a428e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba92e5c.css",
-    "static/js/main.c695d324.js"
+    "static/css/main.941a2a0c.css",
+    "static/js/main.8552d75b.js"
   ]
 }

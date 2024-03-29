@@ -68,12 +68,12 @@ const HomePageBgThree = () => {
             <p
               className={
                 i18n.language !== "ar"
-                  ? " text-xl font-light text-center md:text-left text-white m-auto w-[80%] "
-                  : " text-xl font-light text-center md:text-right text-white m-auto w-[80%] "
+                  ? " text-xl font-normal text-center md:text-left text-white m-auto w-[80%] "
+                  : " text-xl font-normal text-center md:text-right text-white m-auto w-[80%] "
               }
             >
               {t(
-                "Experience Unparalleled Endurance: Unmatched Durability That Stands the Test of Time"
+                "Experience Unparalleled Endurance Unmatched Durability That Stands the Test of Time"
               )}
             </p>
           </div>

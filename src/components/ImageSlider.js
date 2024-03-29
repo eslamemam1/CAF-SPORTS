@@ -4,6 +4,8 @@ import SectionOneHomePage from "./sectionOneHomePage/SectionOneHomePage";
 import HomePageBgTwo from "./sectionOneHomePage/HomePageBgTwo";
 import HomePageBgThree from "./sectionOneHomePage/HomePageBgThree";
 import HomePageBgFour from "./sectionOneHomePage/HomePageBgFour";
+import HomePageBgFive from "./sectionOneHomePage/HomePageBgFive";
+import "./Slider.css"
 
 const ImageSlider = () => {
   const settings = {
@@ -22,6 +24,7 @@ const ImageSlider = () => {
             <HomePageBgTwo/>
             <HomePageBgThree/>
             <HomePageBgFour/>
+            <HomePageBgFive/>
         </Slider>
   );
 };
