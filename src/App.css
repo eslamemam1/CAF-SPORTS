@@ -62,9 +62,6 @@
 .x button {
   transition: 0.5s;
 }
-.slick-dots{
-bottom: 50px;
-}
 .background-style {
   background-size: cover;
   background-position: center;

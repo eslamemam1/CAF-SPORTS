@@ -3,4 +3,8 @@
 }
 .slick-dots li button:before {
   font-size: 13px;
+  padding-bottom: 10px;
+}
+.slick-dots {
+  bottom: 65px;
 }
