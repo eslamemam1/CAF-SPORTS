@@ -4,6 +4,7 @@ import HomePage from "./HomePage";
 import About from "./About";
 import Projects from "./Projects/Projects.js";
 import Contact from "./ContactUs/Contact.js";
+import Services from "./Services/Services.js"
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Sidebar from "./Sidebar";
@@ -124,6 +125,16 @@ function NavBar(props) {
                   {t("Our Projects")}
                 </NavLink>
               </li>
+
+              <li className="navlink text-[#fff]">
+                <NavLink
+                  onClick={topFunction}
+                  className="navlink0"
+                  to={"/Services"}
+                >
+                  {t("Our Services")}
+                </NavLink>
+              </li>
               <li className="navlink text-[#fff]">
                 <NavLink
                   onClick={topFunction}
@@ -161,6 +172,10 @@ function NavBar(props) {
         <Route
           path="/Projects"
           element={<Projects Projects={t("Our Projects")} />}
+        />
+        <Route
+          path="/Services"
+          element={<Services Services={t("Our Services")} />}
         />
         <Route
           path="/Contact"
