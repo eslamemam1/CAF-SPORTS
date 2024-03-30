@@ -63,7 +63,7 @@ const HomePageBgSix = () => {
                   : " text-5xl md:text-3xl lg:text-5xl text-center md:text-right text-white m-auto pb-5 w-[80%]"
               }
             >
-              {t("Versatile Solutions")}
+              {t("Improve the performance")}
             </p>
             <p
               className={
@@ -73,7 +73,7 @@ const HomePageBgSix = () => {
               }
             >
               {t(
-                "Discover Versatile Solutions Tailored to Meet Your Every Need"
+                "Unleash Your Potential with Premier Sports Flooring. Elevate Performance, Enhance Safety. Explore Now"
               )}
             </p>
           </div>
