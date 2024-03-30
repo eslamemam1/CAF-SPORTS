@@ -71,6 +71,16 @@ function RightSideBar(props) {
               topFunction();
             }}
             className="navlinkAr"
+            to={"/Services"}
+          >
+            <p>{t("Our Services")}</p>
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              props.setTogol2(!props.togol2);
+              topFunction();
+            }}
+            className="navlinkAr"
             to={"/Contact"}
           >
             <p>{t("Contact Us")}</p>

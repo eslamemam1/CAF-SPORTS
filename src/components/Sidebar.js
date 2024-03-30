@@ -72,6 +72,16 @@ function Sidebar(props) {
               topFunction();
             }}
             className="navlinkEn"
+            to={"/Services"}
+          >
+            <p>{t("Our Services")}</p>
+          </NavLink>
+          <NavLink
+            onClick={() => {
+              props.setTogol2(!props.togol2);
+              topFunction();
+            }}
+            className="navlinkEn"
             to={"/Contact"}
           >
             <p>{t("Contact Us")}</p>
