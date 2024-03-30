@@ -5,10 +5,10 @@ import design1 from "../imges/design1.png";
 import target1 from "../imges/target1.jpg";
 import renovation1 from "../imges/renovation1.jpg";
 import sketch1 from "../imges/sketch1.jpg";
-import Gallery from "./Gallery";
 import Numbers from "./Numbers";
 import OurPartener from "./new/OurPartener";
 import { useTranslation } from "react-i18next";
+import Gallery2 from "../images/Gallery2";
 const SectionFourHomePage = () => {
   const { t } = useTranslation();
   return (
@@ -62,7 +62,7 @@ const SectionFourHomePage = () => {
         {/**---------------------- */}
       </div>
       <div className=" w-[85%] m-auto mt-20 mb-20">
-        <Gallery />
+        <Gallery2/>
       </div>
       <Numbers />
       <OurPartener/>

@@ -6,10 +6,10 @@ import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import Vectoors from "../new/Vectoors";
-import Gallery from "../Gallery";
 import Footer from "../Footer";
 import { useTranslation } from "react-i18next";
 import SmallContact from "../SmallContact";
+import Gallery2 from "../../images/Gallery2";
 
 function Projects() {
   const { t } = useTranslation();
@@ -86,7 +86,7 @@ function Projects() {
       </div>
       <Vectoors />
       <div className=" w-[85%] m-auto mt-20 mb-20">
-        <Gallery />
+        <Gallery2/>
       </div>
       <Footer />
       <SmallContact/>
