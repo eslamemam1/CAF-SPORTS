@@ -92,14 +92,14 @@ const Footer = (props) => {
           >
             <div className={
                   i18n.language === "en"
-                    ? " flex flex-wrap gap-3 sm:gap-5 justify-center"
-                    : " flex flex-row-reverse flex-wrap gap-3 sm:gap-5 justify-center "
+                    ? " flex flex-row sm:flex-col flex-wrap gap-3 justify-center"
+                    : " flex flex-row-reverse sm:flex-col flex-wrap gap-3 justify-center "
                 }>
               <div
                 className={
                   i18n.language === "en"
-                    ? " flex flex-row sm:flex-col gap-3 sm:gap-5"
-                    : " flex flex-row-reverse sm:flex-col gap-3 sm:gap-5 "
+                    ? " flex flex-row sm:flex-col gap-3 "
+                    : " flex flex-row-reverse sm:flex-col gap-3  "
                 }
               >
                 <li className=" font-normal text-xs sm:text-sm text-[#ffffff]">
@@ -126,8 +126,8 @@ const Footer = (props) => {
               </div>
               <div className={
                   i18n.language === "en"
-                    ? " flex flex-row sm:flex-col gap-3 sm:gap-5"
-                    : " flex flex-row-reverse sm:flex-col gap-3 sm:gap-5 "
+                    ? " flex flex-row sm:flex-col gap-3"
+                    : " flex flex-row-reverse sm:flex-col gap-3 "
                 }>
                 <li className="font-normal text-xs sm:text-sm text-[#fff]">
                   <NavLink onClick={topFunction} className="" to={"/Services"}>
