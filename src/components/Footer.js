@@ -89,43 +89,58 @@ const Footer = (props) => {
             {t("Quick Links")}
           </p>
           <ul
-            className={
-              i18n.language === "en"
-                ? " flex flex-row mt-2 items-start sm:flex-col gap-[5px] sm:gap-5"
-                : " flex flex-row-reverse mt-2 items-center sm:flex-col gap-3 sm:gap-5"
-            }
           >
-            <li className=" font-normal text-xs sm:text-sm text-[#ffffff]">
-              <NavLink
-                element={props.togol2}
-                onClick={topFunction}
-                className=""
-                to={"/CAF-SPORTS"}
+            <div className={
+                  i18n.language === "en"
+                    ? " flex flex-wrap gap-3 sm:gap-5 justify-center"
+                    : " flex flex-row-reverse flex-wrap gap-3 sm:gap-5 justify-center "
+                }>
+              <div
+                className={
+                  i18n.language === "en"
+                    ? " flex flex-row sm:flex-col gap-3 sm:gap-5"
+                    : " flex flex-row-reverse sm:flex-col gap-3 sm:gap-5 "
+                }
               >
-                {t("Home")}
-              </NavLink>
-            </li>
-            <li className="font-normal text-xs sm:text-sm text-[#ffffff]">
-              <NavLink onClick={topFunction} className=" " to={"/About"}>
-                {t("About Us")}
-              </NavLink>
-            </li>
+                <li className=" font-normal text-xs sm:text-sm text-[#ffffff]">
+                  <NavLink
+                    element={props.togol2}
+                    onClick={topFunction}
+                    className=""
+                    to={"/CAF-SPORTS"}
+                  >
+                    {t("Home")}
+                  </NavLink>
+                </li>
+                <li className="font-normal text-xs sm:text-sm text-[#ffffff]">
+                  <NavLink onClick={topFunction} className=" " to={"/About"}>
+                    {t("About Us")}
+                  </NavLink>
+                </li>
 
-            <li className="font-normal text-xs sm:text-sm text-[#fff]">
-              <NavLink onClick={topFunction} className="" to={"/Projects"}>
-                {t("Our Projects")}
-              </NavLink>
-            </li>
-            <li className="font-normal text-xs sm:text-sm text-[#fff]">
-              <NavLink onClick={topFunction} className="" to={"/Services"}>
-                {t("Services")}
-              </NavLink>
-            </li>
-            <li className="font-normal text-xs sm:text-sm text-[#fff]">
-              <NavLink onClick={topFunction} className="" to={"/Contact"}>
-                {t("Contact Us")}
-              </NavLink>
-            </li>
+                <li className="font-normal text-xs sm:text-sm text-[#fff]">
+                  <NavLink onClick={topFunction} className="" to={"/Projects"}>
+                    {t("Our Projects")}
+                  </NavLink>
+                </li>
+              </div>
+              <div className={
+                  i18n.language === "en"
+                    ? " flex flex-row sm:flex-col gap-3 sm:gap-5"
+                    : " flex flex-row-reverse sm:flex-col gap-3 sm:gap-5 "
+                }>
+                <li className="font-normal text-xs sm:text-sm text-[#fff]">
+                  <NavLink onClick={topFunction} className="" to={"/Services"}>
+                    {t("Services")}
+                  </NavLink>
+                </li>
+                <li className="font-normal text-xs sm:text-sm text-[#fff]">
+                  <NavLink onClick={topFunction} className="" to={"/Contact"}>
+                    {t("Contact Us")}
+                  </NavLink>
+                </li>
+              </div>
+            </div>
           </ul>
         </div>
         {/**-------------------- */}
@@ -167,50 +182,54 @@ const Footer = (props) => {
                   +971543575745
                 </a>
               </li>
-            </div>   
+            </div>
             <div className=" flex flex-row gap-2 sm:flex-col">
-            <div className="sm:ml-2 flex sm:gap-2 items-start">
-              <img
-                src={location}
-                className=" w-[20px] sm:w-[25px]"
-                alt="mail"
-              />
-              <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
-                Egypt
-              </li>
-            </div>
-            <div className="sm:ml-2 flex gap-2 items-start text-start">
-              <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
-              <li className="font-normal flex gap-2 flex-wrap text-xs sm:text-sm sm:w-[170px] text-[#fff]">
-                <a
-                  href="tel:01141227755"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  01141227755
-                </a>
-                <br />
-                <a
-                  href="tel:01126484032"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  01126484032
-                </a>
-              </li>
-            </div>
+              <div className="sm:ml-2 flex sm:gap-2 items-start">
+                <img
+                  src={location}
+                  className=" w-[20px] sm:w-[25px]"
+                  alt="mail"
+                />
+                <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
+                  Egypt
+                </li>
+              </div>
+              <div className="sm:ml-2 flex gap-2 items-start text-start">
+                <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
+                <li className="font-normal flex gap-2 flex-wrap text-xs sm:text-sm sm:w-[170px] text-[#fff]">
+                  <a
+                    href="tel:01141227755"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    01141227755
+                  </a>
+                  <br />
+                  <a
+                    href="tel:01126484032"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    01126484032
+                  </a>
+                </li>
+              </div>
             </div>
           </ul>
         </div>
         {/**-------------------- */}
       </div>
-      <div className={
-              i18n.language === "en"
-                ? "w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-start"
-                : "w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-end"
-            }>
+      <div
+        className={
+          i18n.language === "en"
+            ? "w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-start"
+            : "w-[80%] sm:w-[85%] m-auto h-[120px] sm:h-[100px] flex items-center justify-end"
+        }
+      >
         <p className=" text-sm sm:text-lg font-light text-white">
-          {t("Copyright © 2024 All rights reserved | This Website is made by Eslam Emam")}
+          {t(
+            "Copyright © 2024 All rights reserved | This Website is made by Eslam Emam"
+          )}
         </p>
       </div>
       <img
