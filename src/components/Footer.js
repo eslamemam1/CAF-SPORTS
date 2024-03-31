@@ -29,8 +29,8 @@ const Footer = (props) => {
       <div
         className={
           i18n.language !== "ar"
-            ? " flex flex-col sm:flex-row gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
-            : " flex flex-col sm:flex-row-reverse gap-5 w-[90%] sm:w-[85%] m-auto pt-10"
+            ? " flex flex-col sm:flex-row gap-5 w-[95%] sm:w-[85%] m-auto pt-10"
+            : " flex flex-col sm:flex-row-reverse gap-5 w-[95%] sm:w-[85%] m-auto pt-10"
         }
       >
         <div
@@ -91,7 +91,7 @@ const Footer = (props) => {
           <ul
             className={
               i18n.language === "en"
-                ? " flex flex-row mt-2 items-start sm:flex-col gap-3 sm:gap-5"
+                ? " flex flex-row mt-2 items-start sm:flex-col gap-[5px] sm:gap-5"
                 : " flex flex-row-reverse mt-2 items-center sm:flex-col gap-3 sm:gap-5"
             }
           >

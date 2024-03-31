@@ -83,7 +83,7 @@ function NavBar(props) {
           <div
             className={
               i18n.language === "en"
-                ? " text-right text-base font-semibold text-[#2e2e2e] max-lg:hidden flex gap-[100px] flex-row-reverse items-center"
+                ? " text-right text-base font-semibold text-[#2e2e2e] max-lg:hidden flex gap-[40px] flex-row-reverse items-center"
                 : " text-left text-lg text-[#2e2e2e] max-lg:hidden flex gap-[80px] items-center "
             }
           >
