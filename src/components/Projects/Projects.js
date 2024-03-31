@@ -9,7 +9,7 @@ import Vectoors from "../new/Vectoors";
 import Footer from "../Footer";
 import { useTranslation } from "react-i18next";
 import SmallContact from "../SmallContact";
-import Gallery2 from "../../images/Gallery2";
+import ButtonGroup from "../categories/ButtonGroup";
 
 function Projects() {
   const { t } = useTranslation();
@@ -86,7 +86,7 @@ function Projects() {
       </div>
       <Vectoors />
       <div className=" w-[85%] m-auto mt-20 mb-20">
-        <Gallery2/>
+        <ButtonGroup/>
       </div>
       <Footer />
       <SmallContact/>

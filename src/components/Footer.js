@@ -117,6 +117,11 @@ const Footer = (props) => {
               </NavLink>
             </li>
             <li className="font-normal text-xs sm:text-sm text-[#fff]">
+              <NavLink onClick={topFunction} className="" to={"/Services"}>
+                {t("Services")}
+              </NavLink>
+            </li>
+            <li className="font-normal text-xs sm:text-sm text-[#fff]">
               <NavLink onClick={topFunction} className="" to={"/Contact"}>
                 {t("Contact Us")}
               </NavLink>

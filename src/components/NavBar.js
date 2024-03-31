@@ -132,7 +132,7 @@ function NavBar(props) {
                   className="navlink0"
                   to={"/Services"}
                 >
-                  {t("Our Services")}
+                  {t("Services")}
                 </NavLink>
               </li>
               <li className="navlink text-[#fff]">
@@ -175,7 +175,7 @@ function NavBar(props) {
         />
         <Route
           path="/Services"
-          element={<Services Services={t("Our Services")} />}
+          element={<Services Services={t("Services")} />}
         />
         <Route
           path="/Contact"

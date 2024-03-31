@@ -8,7 +8,7 @@ import sketch1 from "../imges/sketch1.jpg";
 import Numbers from "./Numbers";
 import OurPartener from "./new/OurPartener";
 import { useTranslation } from "react-i18next";
-import Gallery2 from "../images/Gallery2";
+import ButtonGroup  from "./categories/ButtonGroup" ;
 const SectionFourHomePage = () => {
   const { t } = useTranslation();
   return (
@@ -62,7 +62,7 @@ const SectionFourHomePage = () => {
         {/**---------------------- */}
       </div>
       <div className=" w-[85%] m-auto mt-20 mb-20">
-        <Gallery2/>
+        <ButtonGroup/>
       </div>
       <Numbers />
       <OurPartener/>
