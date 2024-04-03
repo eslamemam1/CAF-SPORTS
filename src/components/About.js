@@ -125,7 +125,7 @@ function About(props) {
           </p>
           </div>
         </div>
-        <div className=" w-[55%] m-auto">
+        <div className=" w-[80%] md:w-[70%] m-auto">
         <p className=" text-xl font-medium relative bottom-8 ">
           {t(
             "We are CAF SPORTS One of the leading companies in Egypt and United Arab Emirates specialized in the field of sports construction and Artificial flooring."
