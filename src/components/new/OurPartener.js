@@ -11,7 +11,7 @@ const OurPartener = () => {
   return (
     <div>
       <div className="bg-white">
-        <div className=" w-[90%] m-auto items-center  sm:h-[170px] h-[75px] flex justify-center  ">
+        <div className=" w-[90%] m-auto items-center h-[70px]  sm:h-[100px] md:h-[150px]  flex justify-center  ">
           <div className=" w-[80%] ">
             <img src={partener1} alt="logo" className=" w-[80%] " />
           </div>
@@ -28,7 +28,7 @@ const OurPartener = () => {
             <img src={partener5} alt="logo" className=" w-[80%] " />
           </div>
         </div>
-        <div className="w-[90%] m-auto items-center  sm:h-[150px] h-[75px] flex justify-center  ">
+        <div className="w-[90%] m-auto items-center h-[70px]  sm:h-[100px] md:h-[150px]  flex justify-center  ">
           <div className=" w-[40%] "></div>
           <div className=" w-[80%] ">
             <img src={partener6} alt="logo" className=" w-[80%] " />
