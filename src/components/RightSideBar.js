@@ -30,7 +30,7 @@ function RightSideBar(props) {
             onClick={() => {
               props.setTogol2(!props.togol2);
             }}
-            className="navlinkAr bg-[#f0f0f0]"
+            className="navlinkAr bg-[#f0f0f0] "
             to={"#"}
           >
             <p>{t("Close")}</p>
