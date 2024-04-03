@@ -6,15 +6,15 @@ import { useTranslation } from "react-i18next";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 // Import images
-import image1 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces1.jpg";
-import image2 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces2.jpg";
-import image3 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces3.jpg";
-import image4 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces4.jpg";
-import image5 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces5.jpg";
-import image6 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces6.jpg";
-import image7 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces7.jpg";
-import image8 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces8.jpg";
-import image9 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/ArtificialGrassforSportsSurfaces9.jpg";
+import image1 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/1.jpg";
+import image2 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/2.jpg";
+import image3 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/3.jpg";
+import image4 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/4.jpg";
+import image5 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/5.jpg";
+import image6 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/6.jpg";
+import image7 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/7.jpg";
+import image8 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/8.jpg";
+import image9 from "../../imges/Gallarey/ArtificialGrassforSportsSurfaces/9.jpg";
 // Import other images...
 
 function ArtificialGrassforSportsSurfaces() {

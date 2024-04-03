@@ -14,6 +14,7 @@ import image5 from "../../imges/Gallarey/GYMFlooring/5.jpg";
 import image6 from "../../imges/Gallarey/GYMFlooring/6.jpg";
 import image7 from "../../imges/Gallarey/GYMFlooring/7.jpg";
 import image8 from "../../imges/Gallarey/GYMFlooring/8.jpg";
+import image9 from "../../imges/Gallarey/GYMFlooring/9.jpg";
 // Import other images...
 
 function GYMFlooring() {
@@ -31,6 +32,7 @@ function GYMFlooring() {
     { original: image6, thumbnail: image6, description: t("GYM Flooring") },
     { original: image7, thumbnail: image7, description: t("GYM Flooring") },
     { original: image8, thumbnail: image8, description: t("GYM Flooring") },
+    { original: image9, thumbnail: image9, description: t("GYM Flooring") },
     // Add other images and descriptions here
   ];
 
