@@ -11,6 +11,7 @@ import image2 from "../../imges/Gallarey/TartanFlooring/2.jpg";
 import image3 from "../../imges/Gallarey/TartanFlooring/3.jpg";
 import image4 from "../../imges/Gallarey/TartanFlooring/4.jpg";
 import image5 from "../../imges/Gallarey/TartanFlooring/5.jpg";
+import image6 from "../../imges/Gallarey/TartanFlooring/6.jpg";
 // Import other images...
 
 function TartanFlooring() {
@@ -25,6 +26,7 @@ function TartanFlooring() {
     { original: image3, thumbnail: image3, description: t("Tartan Flooring") },
     { original: image4, thumbnail: image4, description: t("Tartan Flooring") },
     { original: image5, thumbnail: image5, description: t("Tartan Flooring") },
+    { original: image6, thumbnail: image6, description: t("Tartan Flooring") },
     // Add other images and descriptions here
   ];
 

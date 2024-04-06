@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/CAF-SPORTS/static/css/main.81e63290.css",
-    "main.js": "/CAF-SPORTS/static/js/main.b290b15a.js",
+    "main.js": "/CAF-SPORTS/static/js/main.9c48cfb2.js",
     "static/js/787.101a428e.chunk.js": "/CAF-SPORTS/static/js/787.101a428e.chunk.js",
     "static/media/Services.jpg": "/CAF-SPORTS/static/media/Services.796bac806eb0cce6fc43.jpg",
     "static/media/4.jpg": "/CAF-SPORTS/static/media/4.d8151c1301c8616e7703.jpg",
-    "static/media/3.jpg": "/CAF-SPORTS/static/media/3.f11561cd0a9922953a91.jpg",
-    "static/media/1.jpg": "/CAF-SPORTS/static/media/1.fa838439d8926951086e.jpg",
+    "static/media/11.jpg": "/CAF-SPORTS/static/media/11.eacc2d260db1d2518ea5.jpg",
     "static/media/7.jpg": "/CAF-SPORTS/static/media/7.448a911464e8df95acdf.jpg",
     "static/media/6.jpg": "/CAF-SPORTS/static/media/6.ff758de22dca629ad484.jpg",
+    "static/media/1.jpg": "/CAF-SPORTS/static/media/1.fa838439d8926951086e.jpg",
     "static/media/backGround.jpg": "/CAF-SPORTS/static/media/backGround.eeb99c2d954df894fc70.jpg",
     "static/media/2.jpg": "/CAF-SPORTS/static/media/2.977978fe6ad943d5eaf6.jpg",
     "static/media/OurProjects.png": "/CAF-SPORTS/static/media/OurProjects.aced294cb34a69eb2dcc.png",
     "static/media/CountactUs.png": "/CAF-SPORTS/static/media/CountactUs.9564c9cf2e9fe7be7b81.png",
     "static/media/aboutUsBackGraound.png": "/CAF-SPORTS/static/media/aboutUsBackGraound.1c2f6e8f14bba3080e4e.png",
     "static/media/installation.jpg": "/CAF-SPORTS/static/media/installation.7484f8c96ad79972c930.jpg",
-    "static/media/5.jpg": "/CAF-SPORTS/static/media/5.448a911464e8df95acdf.jpg",
     "static/media/9.jpg": "/CAF-SPORTS/static/media/9.ec4d5e2d79bcca200111.jpg",
+    "static/media/5.jpg": "/CAF-SPORTS/static/media/5.448a911464e8df95acdf.jpg",
     "static/media/8.jpg": "/CAF-SPORTS/static/media/8.4f80f378cf0548089b39.jpg",
-    "static/media/11.jpg": "/CAF-SPORTS/static/media/11.eacc2d260db1d2518ea5.jpg",
-    "static/media/10.jpg": "/CAF-SPORTS/static/media/10.ae9360fd05f8274e5ee5.jpg",
+    "static/media/3.jpg": "/CAF-SPORTS/static/media/3.f11561cd0a9922953a91.jpg",
+    "static/media/10.jpg": "/CAF-SPORTS/static/media/10.183fe8bffba9da0be0a2.jpg",
     "static/media/Supply.jpg": "/CAF-SPORTS/static/media/Supply.5f5a0009727dd9f3bd2d.jpg",
     "static/media/Maintenance.jpg": "/CAF-SPORTS/static/media/Maintenance.0231664b91d9e0af34f1.jpg",
     "static/media/OurValue.png": "/CAF-SPORTS/static/media/OurValue.f687b0cc1ca1c12a02f9.png",
@@ -45,11 +45,11 @@
     "static/media/Vector2.svg": "/CAF-SPORTS/static/media/Vector2.e42f9cbf392e799a7d8d5e661e2bb8c9.svg",
     "static/media/Vector.svg": "/CAF-SPORTS/static/media/Vector.e32fe0f4044cbff4586dcc55cb32a2a7.svg",
     "main.81e63290.css.map": "/CAF-SPORTS/static/css/main.81e63290.css.map",
-    "main.b290b15a.js.map": "/CAF-SPORTS/static/js/main.b290b15a.js.map",
+    "main.9c48cfb2.js.map": "/CAF-SPORTS/static/js/main.9c48cfb2.js.map",
     "787.101a428e.chunk.js.map": "/CAF-SPORTS/static/js/787.101a428e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81e63290.css",
-    "static/js/main.b290b15a.js"
+    "static/js/main.9c48cfb2.js"
   ]
 }

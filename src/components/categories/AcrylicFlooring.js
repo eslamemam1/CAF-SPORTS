@@ -14,6 +14,8 @@ import image6 from "../../imges/Gallarey/AcrylicFlooring/6.jpg";
 import image7 from "../../imges/Gallarey/AcrylicFlooring/7.jpg";
 import image8 from "../../imges/Gallarey/AcrylicFlooring/8.jpg";
 import image9 from "../../imges/Gallarey/AcrylicFlooring/9.jpg";
+import image10 from "../../imges/Gallarey/AcrylicFlooring/10.jpg";
+import image11 from "../../imges/Gallarey/AcrylicFlooring/11.jpg";
 // Import other images...
 
 function AcrylicFlooring() {
@@ -32,6 +34,8 @@ function AcrylicFlooring() {
     { original: image7, thumbnail: image7, description: t("Acrylic Flooring") },
     { original: image8, thumbnail: image8, description: t("Acrylic Flooring") },
     { original: image9, thumbnail: image9, description: t("Acrylic Flooring") },
+    { original: image10, thumbnail: image10, description: t("Acrylic Flooring") },
+    { original: image11, thumbnail: image11, description: t("Acrylic Flooring") },
   ];
 
   const openModal = (index) => {
