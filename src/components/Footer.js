@@ -157,8 +157,12 @@ const Footer = (props) => {
           >
             <div className="sm:ml-2 w-[100%] flex gap-2 justify-center">
               <img src={mail} alt="mail" className=" w-[20px] sm:w-[25px]" />
-              <li className="font-normal text-xs sm:text-sm text-start sm:w-[170px] text-[#fff]">
-                Mohamedobrahim@gmail.com
+              <li className="font-normal text-xs text-start sm:w-[170px] text-[#fff]">
+              <a href="mailto:sales_uae@caf-sports.com"
+                  target="_blank"
+                  rel="noopener noreferrer" >
+              sales_uae@caf-sports.com
+              </a>
               </li>
             </div>
             <div className="sm:ml-2 flex sm:gap-2 items-start">
@@ -179,11 +183,11 @@ const Footer = (props) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  +971543575745
+                  (+971) 543575745
                 </a>
               </li>
             </div>
-            <div className=" flex flex-row gap-2 sm:flex-col">
+            <div className=" flex flex-row gap-1 sm:flex-col flex-wrap justify-center">
               <div className="sm:ml-2 flex sm:gap-2 items-start">
                 <img
                   src={location}
@@ -194,15 +198,15 @@ const Footer = (props) => {
                   Egypt
                 </li>
               </div>
-              <div className="sm:ml-2 flex gap-2 items-start text-start">
+              <div className="sm:ml-2 flex gap-1 items-start text-start">
                 <img src={phone} alt="mail" className=" w-[20px] sm:w-[25px]" />
-                <li className="font-normal flex gap-2 flex-wrap text-xs sm:text-sm sm:w-[170px] text-[#fff]">
+                <li className="font-normal flex gap-1 flex-wrap text-xs sm:text-sm sm:w-[170px] text-[#fff]">
                   <a
                     href="tel:01141227755"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    01141227755
+                    (+20) 01141227755
                   </a>
                   <br />
                   <a
@@ -210,7 +214,7 @@ const Footer = (props) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    01126484032
+                    (+20) 01126484032
                   </a>
                 </li>
               </div>
